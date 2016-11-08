@@ -1,0 +1,184 @@
+#key{
+	background:url(../img/concept/key_bg.jpg) no-repeat center / cover;
+}
+#sec1Inner{
+	background:url(../img/concept/sec1_bg2.jpg) repeat-x top center, url(../img/concept/sec1_bg.png) repeat-x bottom center;
+	padding-bottom: 148px;
+}
+#lead{
+	background:url(../img/concept/lead_bg.jpg) no-repeat top center;
+	padding-top: 93px;
+}
+#lead .content{
+	height: 466px;
+}
+#lead h2{
+	float: left;
+	width: 350px;
+}
+.lead_txt{
+	float: left;
+	width: 563px;
+	margin: 34px 0 0 64px;
+	font-size: 16px;
+}
+#sec1_1{
+	position: relative;
+	padding-top: 59px;
+	margin-bottom: 40px;
+}
+#sec1_1 h2{
+	margin-left: 14px;
+}
+.sec1_txt1{
+	margin: 15px 0 0 14px;
+	width: 353px;
+}
+.sec1_label{
+	position: absolute;
+	top: -48px;
+	left: 295px;
+}
+.sec1_img1{
+	position: absolute;
+	top: 194px;
+	right: 0;
+}
+#sec1_2{
+	padding-bottom: 100px;
+}
+#sec1_2 h2{
+	float: right;
+	width: 275px;
+}
+#sec1_2Left{
+	float: left;
+	width: 590px;
+	margin:36px 0 0 55px;
+}
+.sec1_img2{
+	margin-bottom: 20px;
+}
+.sec1_btn{
+	margin:auto;
+	width: 880px;
+}
+#sec2Top{
+	background:url(../img/concept/sec1_bg.jpg) no-repeat center / cover;
+}
+#sec2Top .content{
+	height: 600px;
+}
+#sec2Top h2{
+	position: absolute;
+	top: 54px;
+	right: 0;
+}
+#sec2Bottom{
+	background:url(../img/concept/sec2_bg2.jpg) no-repeat top center;
+	padding-top: 179px;
+}
+#sec2Bottom .content{
+	height: 365px;
+}
+#sec2Bottom h3{
+	margin-left: 19px;
+}
+.sec2_txt{
+	margin: 22px 0 0 76px;
+   line-height: 27px;
+}
+.sec2_label1{
+	position: absolute;
+	top: -23px;
+	right: 192px;
+}
+.sec2_label2{
+	position: absolute;
+	top: -94px;
+	right: -11px;
+}
+.sec2_label3{
+	position: absolute;
+	bottom: 57px;
+	right: 41px;
+}
+.floor{
+	text-align:center;
+}
+#sec3{
+	background:url(../img/concept/sec3_bg1.jpg) no-repeat top center, url(../img/concept/sec3_bg3.jpg) no-repeat bottom center;
+	padding: 72px 0 96px 0;
+}
+#sec3_1{
+	position: relative;
+	height: 553px;
+}
+#sec3_1Inner{
+	position: absolute;
+	top: 0;
+	left: 37px;
+}
+.sec3_txt1{
+	position: absolute;
+	top: 272px;
+	left: 0;
+}
+#sec3_2{
+	position: absolute;
+	top: 209px;
+	right: 40px;
+}
+.sec3_txt2{
+	position: absolute;
+	top: 265px;
+	left: 0;
+	z-index:1;
+}
+#sec3_3{
+	position: relative;
+	height: 489px;
+	background:url(../img/concept/sec3_bg2.jpg) no-repeat top center;	
+}
+#sec3_3 .content{
+	height: 489px;
+}
+.sec3_txt3{
+	position: absolute;
+	bottom: 69px;
+	left: 3px;
+	z-index:1;
+}
+
+.sec3_txt4{
+	position: absolute;
+	bottom: 0px;
+	left: 60px;
+	z-index: 1;
+	width: 305px;
+}
+
+.sec3_img3_2{
+	position: absolute;
+	right: 271px;
+	bottom: 79px;
+}
+
+.sec3_txt4{
+	position: absolute;
+	bottom: 40px;
+	right: 157px;
+	z-index: 1;
+}
+#sec3_4 .content{
+	height: 510px;
+}
+.sec3_img4_2{
+	position: absolute;
+	left: 138px;
+	top: 119px;
+}
+.sec3_btn{
+	width: 560px;
+	margin:auto;
+}

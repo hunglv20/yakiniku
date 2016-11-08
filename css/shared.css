@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* 共有ベース定義
+-----------------------------------------------	*/
+
+body {
+	text-align:left;
+	color: #fffefe;
+	cursor: auto;
+	font: normal normal 15px/28px "ヒラギノ角ゴシックPro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ヒラギノ明朝体 Pro", "ＭＳ ゴシック", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	letter-spacing:0;
+	min-width:1000px;
+  	text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	background:#000000;
+}
+.mincho {
+	font:normal normal 13px/25px  "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "HGS明朝E", serif;
+}
+#wrapper{
+	width:100%;
+	min-width:1000px;
+}
+*:first-child+html img {
+	vertical-align: top;
+}
+* html img {
+	vertical-align: top;
+}
+/* 強調 */
+strong {
+	font-weight: bold;
+}
+a{
+	color: #fffefe;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+/*=============================================*/
+/*                ヘッド部分                   */
+/*=============================================*/
+
+#header {
+	height: 755px;
+	position: relative;
+	width: 100%;
+}
+#keyInner{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index:100;
+}
+#keyInner .content{
+	height: 755px;
+}
+.key_txt{
+	position: absolute;
+	right: 0;
+	bottom: 70px;
+}
+#belt{
+	height: 219px;	
+	width: 100%;
+	top: 0;
+	left: 0;
+	background:url(../img/belt.jpg) repeat-x top center;
+	padding-top: 3px;
+	position: relative;
+}
+#belt hr{
+	position: absolute;
+	background:url(../img/line_shadow.png) repeat-x top center;
+	height: 12px;
+}
+h1 {
+    font-size: 12px;
+	line-height:30px;
+	position: absolute;
+	right: 0;
+	top: 5px;
+	z-index:1000;
+	color:#fffffe;
+}
+#tel{
+	float: left;
+	background:url(../img/tel_box.png) no-repeat top center;
+	width: 325px;
+	height: 164px;
+	margin:16px 0 0 -14px;
+	padding-top: 21px;
+}
+#tel_txt{
+	font:normal normal 16px/23px  "ヒラギノ明朝 Pro W4", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "HGS明朝E", serif;
+	margin: 13px 0 0 35px;
+}
+#tel_txt span{
+	float: left;
+	width: 76px;
+}
+#key{
+	height: 755px;
+	width: 100%;
+	position: relative;
+	z-index:0;
+}
+
+#belt ul{
+	float: right;
+	margin-right: 34px;
+}
+
+#belt li{
+	float: left;
+}
+
+/*=============================================*/
+/*                100%メイン囲み   top           */
+/*=============================================*/
+
+div#container {
+	min-width:1000px;
+	width: 100%;
+	margin:auto;
+}
+.content{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+#topcontrol{
+	z-index: 3000;
+}
+
+/*=============================================*/
+/*                   フッターメニュー          */
+/*=============================================*/
+#footer {
+	background:url(../img/footer_bg.jpg) no-repeat top center / cover;
+	text-align:center;
+	height: 687px;
+	font-size: 14px;
+}
+#footerNav{
+	width: 100%;
+	text-align:center;	
+	background:url(../img/nav_bg.png) repeat top center;
+	margin-bottom: 40px;
+}
+#footerNav ul{
+	width: 1000px;
+	margin:auto;
+	line-height:50px;
+}
+#footerNav a{
+	padding:0 32px;
+	line-height:50px;
+}
+#footerNav a:hover{
+	text-decoration: underline;
+}
+#footerNav li{
+	display:inline-block;
+	line-height:59px;
+	font-size: 15px;
+}
+#vcard p{
+	margin-bottom: 13px;
+}
+address{
+	font-style:normal;
+	letter-spacing:2px;
+	padding-top: 20px;
+}
+
+/* CLEAR FIX
+--------------------------------------------------------- */
+.clearfix {
+	zoom:1 !important;
+}/* for IE 5.5-7 */
+.clearfix:after {
+	content: "." !important;
+	display: block !important;
+	height: 0px !important;
+	clear: both !important;
+	visibility: hidden !important;
+}
+
+.center{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.text_center{
+	text-align: center !important;
+}
+.text_right{
+	text-align: right;
+}
+.left_col{
+	float: left;
+}
+.right_col{
+	float: right;	
+}
+hr{
+	width: 100%;
+	border:none;
+}
+hr.line1{
+	background:url(../img/line.jpg) repeat-x top center;
+	height: 3px;
+}
+.menuList dl{
+	background:url(../img/sec6_line.jpg) repeat-x bottom left;
+	padding:11px 0 12px 0;
+	line-height:24px;
+}
+.menuList dt{
+	float: left;
+}
+.menuList dd{
+	float: right;
+	text-align:right;
+	 padding-right: 10px;
+}
+.bg2{
+	background:url(../img/bg2.jpg) repeat top center;
+}
+.price{
+	font-size: 50px;
+	color:#f49b28;
+	font-weight:bold;
+	line-height:42px;
+}
+.price span{
+	color:#fffefe;
+	font-size: 32px;
+	font-weight:normal;
+	margin-left: 10px;
+}
+.col{
+	width: 320px;
+	float: left;
+}
+.col+.col{
+	margin-left: 20px;
+}
+
+
+/*　-------------------------------------------------------------------------------------
+
+スマホ閲覧時スマホサイト誘導ボタン
+-------------------------------------------------------------------------------------　*/
+#sp_botan a{
+	border:1px #d7804a solid;
+	padding:25px 5px;
+	text-align:center;
+	font-size:32px;
+	color:#FFFFFF;
+	display:block;
+	text-decoration:none;
+	background: #9f5323; 
+}

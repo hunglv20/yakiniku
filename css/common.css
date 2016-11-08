@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+
+
+
+/* リセット定義
+-----------------------------------------------	*/
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: 0;
+}
+
+img, input {
+	vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5, h6, address {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: normal;
+}
+
+div, blockquote, p, pre, ul, ol, li, dl, dt, dd {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li,ol{
+	list-style:none;
+}
+
+table, caption, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-style: normal;
+	font-weight: normal;
+}
+
+hr {
+	margin: 0;
+	padding: 0;
+}
+
+iframe {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+form, fieldset, input, button, select, optgroup, option, textarea, label, legend {
+	margin: 0;
+	padding: 0;
+}
+
+span, em, strong, dfn, code, samp, kbd, var, cite, abbr, acronym, q, br, ins, del, a, img, object {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-style: normal;
+	font-weight: inherit;
+}
+table{
+	border-collapse:collapse;
+}
+a:focus{
+border:none;
+}

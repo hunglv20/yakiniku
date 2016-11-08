@@ -1,0 +1,72 @@
+#key{
+	background:url(../img/drink/key_bg.jpg) no-repeat center / cover;
+}
+#lead{
+	background:url(../img/drink/lead_bg.jpg) no-repeat top center;
+	padding-top: 139px;
+}
+#lead .content{
+	height: 568px;
+}
+.lead_txt{
+	width: 510px;
+	margin:31px 0 0 3px;
+}
+#sec1{
+	background:url(../img/drink/sec1_bg3.jpg) no-repeat top center , url(../img/drink/sec1_bg2.png) repeat-x bottom center , url(../img/drink/sec1_bg.jpg) repeat top center;
+	padding-bottom: 55px;
+}
+#sec1_1{
+	position: relative;
+	padding: 62px 0 50px 0;
+}
+.sec1_label{
+	position: absolute;
+	top: -27px;
+	left: 182px;
+}
+#sec1_1 h2{
+	float: right;
+	width: 238px;
+}
+#sec1_1 .col{
+	float: right;
+	margin:89px 6px 0 0;
+}
+#sec1 h3{
+	background:url(../img/drink/sec1_h3.png) no-repeat top center;
+	text-align:center;
+	line-height:50px;
+	font-size: 18px;
+}
+#sec1_1 p{
+	margin-top: 30px;
+	padding-bottom: 10px;
+	background:url(../img/menu/sec6_line.jpg) repeat-x bottom left;
+}
+#sec1 .menuList{
+	margin-bottom: 30px;
+}
+#sec2Top{
+	background:url(../img/drink/drink_img.jpg) no-repeat center / cover fixed;
+	height: 650px;
+}
+#sec2Top .content{
+	height: 650px;
+}
+#sec2Top h2{
+	position: absolute;
+	left: 0;
+	bottom: 149px;
+}
+#sec2{
+	background:url(../img/drink/sec2_bg.jpg) no-repeat top left	;
+	padding: 10px 0 88px 0;
+}
+#sec2Info{
+	padding-top: 45px;
+}
+.sec2_txt{
+	line-height:66px;
+	margin-bottom: 20px;
+}
